@@ -2,6 +2,10 @@
 
 SequenciPy is a Python script that helps you seamlessly rename files in a directory, following a specific naming convention. It's designed to make file sequencing and renaming easy and efficient.
 
+## Demonstration Video
+
+[![SequenciPy Demonstration](./video/thumbnail2.png)](https://youtu.be/HFTU-eKdv68)
+
 ## How It Works
 
 The main script, `SequenciPy.py`, provides a function called `rename_files_with_padding(directory, extensions)`, which performs the following tasks:
