@@ -50,7 +50,7 @@ def rename_files_with_padding(directory, extensions):
 
 
 if __name__ == "__main__":
-    directory = "./01_Basics/"
+    directory = "./Directory1/"
     extensions = ["md", "txt"]
 
     try:
