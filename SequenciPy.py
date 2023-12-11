@@ -9,6 +9,11 @@ def rename_files_with_padding(directory, extensions):
         raise TypeError(
             "🚫 Extensions should be a list of file extensions (e.g., ['md', 'txt']).")
 
+    # List all files found in the directory
+    print("List of files found in the directory:\n")
+    for i, file in enumerate(os.listdir(directory)):
+        print(f"{i+1}) {file}")
+
     rename_results = []
 
     for root, _, files in os.walk(directory):
